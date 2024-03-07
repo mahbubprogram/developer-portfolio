@@ -10,20 +10,28 @@ h1{
 .heading-color{
     color: orange;
 }
-.section1{
+section{
     display: flex;
+    margin-bottom: 60px;
+}
+.section1{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.section2{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .half-width{
     width: 45%;
     padding-left: 3%;
 }
 .half-width img{
-    width: 90%;
+    width: 80%;
     padding-top: 15px;
 }
-.hire{
+.link-button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 30px;
