@@ -7,12 +7,15 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 35px;
+}
 .heading-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
-    margin-bottom: 60px;
+    margin: 50px 0 100px;
 }
 .section1{
     background-image: url(images/top-banner.png);
@@ -23,9 +26,15 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.section3{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    
+}
 .half-width{
     width: 45%;
     padding-left: 3%;
+    margin: 0 3%;
 }
 .half-width img{
     width: 80%;
@@ -38,4 +47,26 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 600px;
+}
+.exp{
+    padding-left: 45px;
+}
+.shadow{
+    margin: 0 80px;
+    box-shadow: 10px 10px 25px gray;
+}
+#exp-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+#exp-learner{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, skyblue);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+footer p{
+    text-align: center;
 }
